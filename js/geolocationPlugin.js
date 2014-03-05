@@ -40,7 +40,9 @@ var heatmap;
             //currentLocation:{lat:36.1749700,lng:-115.1372200},        //Las Vegas
 			//currentLocation:{lat:36.121722,lng:-115.169399},	//Las Vegas - The Venetian Hotel
             //currentLocation:{lat:36.121341,lng:-115.165987},        //Las Vegas - Sands Expo Center Hall D
-			currentLocation:{lat:37.386384,lng:-121.966366},	//Santa Clara SC12
+			currentLocation:{ "lat":"37.385866", "lng":"-121.966074"},	//Santa Clara SC12
+            
+           
 
 			arrEngineers: [
 				{"lat":"37.390073", "lng":"-121.991844"},

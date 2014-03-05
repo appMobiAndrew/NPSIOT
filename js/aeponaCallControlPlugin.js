@@ -113,13 +113,14 @@ Copyright (c) 2014 Intel(R) Corporation
 //Change this variable to alter the default 
 var preSetCallData =  { "callSessionInformation": 
 					{ "participant": [
-						{
-							"participantAddress": "tel:+14088396927",
-							"participantName": "David Sidd Cell"
-						},
+,
 						{
 							"participantAddress": "tel:+12062261191",
 							"participantName": "Caesar Winebrenner Cell"
+						},
+						{
+							"participantAddress": "tel:+12068675309",
+							"participantName": "For a Good Time Call"
 						}
 					] } 
 				};

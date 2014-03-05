@@ -2477,8 +2477,7 @@ var arrStreetLights = [
 {"lat":"37.387123", "lng":"-121.993239", id:"LP340-0165", installed:"02/04/2013", status:"OK", humans:3, notes:"Santa Clara"},
 {"lat":"37.387021", "lng":"-121.994655", id:"LP340-0165", installed:"02/04/2013", status:"OK", humans:3, notes:"Santa Clara"},
 
-{"lat":"37.386384", "lng":"-121.966366", id:"LP340-0165", installed:"02/04/2013", status:"OK", humans:3, notes:"SC12"},
-{"lat":"37.382089", "lng":"-121.963617", id:"LP340-0106", installed:"08/01/2011", status:"BULB_WARNING", humans:15, notes:"Bayshore Montague"},
-
+{"lat":"37.385866", "lng":"-121.966074", id:"LP340-0102", installed:"02/04/2013", status:"OK", humans:3, notes:"SC12"},
+{"lat":"37.382119", "lng":"-121.963949", id:"LP340-0106", installed:"08/01/2011", status:"BULB_WARNING", humans:15, notes:"Bayshore Montague"},
 
 ];

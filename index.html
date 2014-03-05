@@ -289,7 +289,7 @@
 	
 	
 	<!-- Default Left Nav Bar -->
-    <nav id="nav_0" data-appbuilder-object="nav">
+    <nav id="nav_0" data-appbuilder-object="nav" style="min-height:100%;">
     </nav>
 	
 	<!-- Power Plan Left Nav -->
@@ -359,7 +359,7 @@
 	</nav>
 	
 	<!-- Comprimised Lights Left Nav Bar -->
-	<nav id="nav_bad_lights" data-appbuilder-object="nav">
+	<nav id="nav_bad_lights" data-appbuilder-object="nav" style="min-height:100%;">
 		<h1 style="color:#ffffff; text-align:center;" class="icon warning">Light Warnings</h1>
 		<ul id="ulLightList" class="list" data-appbuilder-object="list" style="font-weight:200;color:#000000;">
 			<li><a href="javascript:highlightBadLight();">LP340-0106</a>
@@ -372,7 +372,6 @@
 			</li>
 			<li><a href="javascript:highlightBadLight();">LP340-0813</a>
 			</li>
-
 		</ul>
 	</nav>
 	
@@ -436,10 +435,20 @@
 	
 </div>
 
+
+
 </body>
 
 <script>
+function addBug() {
+	console.log(234234);
+	document.getElementById("menu").innerHTML = document.getElementById("menu").innerHTML + '<div id="divSecurityBug" style="position:absolute;bottom:0px;left:0px;"><img src="images/logos/McAfee.png" style="width:256px;" /></div>';
+
+}
+
 function showPanel (panelID) {
+
+console.log("show panel");
 	$.ui.loadContent('#'+ panelID ,false,false);
 	
 	//console.log($("#defaultNav").children());
@@ -458,6 +467,8 @@ function showPanel (panelID) {
 		}
 
 	});
+	
+	
 
 }
 	
@@ -474,6 +485,8 @@ function removeClass(ele,cls) {
 	
 function login(user,password) {
 	$.ui.launch();
+	
+	addBug();
 }
 
 
