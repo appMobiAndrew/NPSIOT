@@ -111,17 +111,5 @@ Copyright (c) 2014 Intel(R) Corporation
 //{phone0:\"17175537619\",phone1:\"14088396927\",name0:\"Andrew\",name1:\"David\"}
 
 //Change this variable to alter the default 
-var preSetCallData =  { "callSessionInformation": 
-					{ "participant": [
-,
-						{
-							"participantAddress": "tel:+12062261191",
-							"participantName": "Caesar Winebrenner Cell"
-						},
-						{
-							"participantAddress": "tel:+12068675309",
-							"participantName": "For a Good Time Call"
-						}
-					] } 
-				};
+var preSetCallData =  {"callSessionInformation":{"participant":[{"participantAddress":"tel:+17175537619","participantName":"Andrew Desk"},{"participantAddress":"tel:+17176509761","participantName":"Andrew Cell"}]}};
           

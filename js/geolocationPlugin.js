@@ -333,7 +333,7 @@ var heatmap;
 						//console.log(this.markers);
 						contentString =  "<div style='box-sizing:border-box;width:200px;'>ID: LP340-0102<br/>" +
 										"Network: LVS-031<br/>" +
-										"Region: Las Vegas<br/>" +
+										"Region: Santa Clara<br/>" +
 										
 										//On/Off Control
 										"<input id=\"toggle1\" checked=\"\" type=\"checkbox\" name=\"toggle1\" value=\"1\" class=\"toggle\" onchange=\"toggleLight(this.checked,'LP340-0102');\">" +

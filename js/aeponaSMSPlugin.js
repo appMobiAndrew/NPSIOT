@@ -93,8 +93,7 @@ Copyright (c) 2014 Intel(R) Corporation
     
 })(af)
 
-
-var preSetSMSNumber  =  "12062261191";
+var preSetSMSNumber  =  "14088396927";
 var preSetSMSMessage =  "I have all the Aepona working in the demo finally";
 			
 			
