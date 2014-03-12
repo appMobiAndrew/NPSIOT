@@ -3,7 +3,7 @@
 var masheryURL = "http://npspoc.mashery.com/io-docs";
 
 //var defaultNeighborhoodID = "las_vegas_strip";
-var defaultNeighborhoodID = "city_santa_clara";
+var defaultNeighborhoodID = "santa_clara";
 
 var apikey = "g3rthm4qcxbkjs2kye8vqqzm";
 
